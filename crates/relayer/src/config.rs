@@ -799,6 +799,9 @@ impl<'de> Deserialize<'de> for ChainConfig {
 
             //
             // <-- Add new chain types here -->
+            "Penumbra" => PenumbraConfig::deserialize(value)
+            .map(Self::Penumbra)
+            .map_err(|e| serde::de::Error::custom(format!("invalid Penumbra config: {e}"))),
             //
             chain_type => Err(serde::de::Error::custom(format!(
                 "unknown chain type: {chain_type}",

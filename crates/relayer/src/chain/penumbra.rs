@@ -433,7 +433,11 @@ impl PenumbraChain {
         }
         .boxed())
         .await
-        .context("error broadcasting transaction")?;
+        .map_err(|e| {
+            tracing::error!("error awaiting transaction broadcast: {}", e);
+        e
+    })
+    .context("broadcast_transaction failed")?;
 
         Ok(id)
     }
@@ -1771,12 +1775,6 @@ impl ChainEndpoint for PenumbraChain {
         &self,
         _client_id: ClientId,
     ) -> Result<ibc_relayer_types::applications::ics28_ccv::msgs::ConsumerId, Error> {
-        unimplemented!("not currently implemented in penumbra")
-    }
-
-    fn query_compatible_versions(
-        &self,
-    ) -> Result<Vec<ibc_relayer_types::core::ics03_connection::version::Version>, Error> {
         unimplemented!("not currently implemented in penumbra")
     }
 }
