@@ -11,7 +11,6 @@ use std::time::Instant;
 use ibc_proto::google::protobuf::Any;
 use ibc_relayer_types::applications::ics28_ccv::msgs::ConsumerId;
 use itertools::Itertools;
-use penumbra_sdk_proto::cosmos::tx::config;
 use tracing::{debug, error, info, instrument, trace, warn};
 
 use flex_error::define_error;

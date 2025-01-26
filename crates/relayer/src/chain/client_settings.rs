@@ -58,4 +58,3 @@ fn calculate_client_state_drift(
         + dst_chain_config.clock_drift()
         + dst_chain_config.max_block_time()
 }
-

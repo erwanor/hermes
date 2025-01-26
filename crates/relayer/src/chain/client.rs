@@ -1,7 +1,5 @@
 //! Data structures and logic to set up IBC client's parameters.
 
-use anyhow::Chain;
-
 use crate::chain::client_settings::Settings;
 use crate::config::ChainConfig;
 use crate::foreign_client::CreateOptions;
