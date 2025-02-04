@@ -664,7 +664,9 @@ impl ChainEndpoint for PenumbraChain {
     }
 
     fn get_key(&self) -> Result<Self::SigningKeyPair, Error> {
-        unimplemented!("no key storage support for penumbra")
+        Err(Error::temp_penumbra_error(
+            "TODO: telemetry should not require keyring access".to_string(),
+        ))
     }
 
     fn version_specs(&self) -> Result<crate::chain::cosmos::version::Specs, Error> {
