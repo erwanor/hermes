@@ -435,9 +435,9 @@ impl PenumbraChain {
         .await
         .map_err(|e| {
             tracing::error!("error awaiting transaction broadcast: {}", e);
-        e
-    })
-    .context("broadcast_transaction failed")?;
+            e
+        })
+        .context("broadcast_transaction failed")?;
 
         Ok(id)
     }
