@@ -1489,9 +1489,8 @@ dependencies = [
 
 [[package]]
 name = "cnidarium-component"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2ac1a05eff9895d1459049bc9e8e1adfdddf50572b0379cb9b219403d935f2da"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1961,9 +1960,8 @@ dependencies = [
 
 [[package]]
 name = "decaf377-fmd"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "75933274c34a6be0134f123c0bd9ee4ffac425d2bd270a2efc1765877c531489"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "ark-ff 0.4.2",
  "ark-serialize 0.4.2",
@@ -1976,9 +1974,8 @@ dependencies = [
 
 [[package]]
 name = "decaf377-frost"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8d60a4b54827ec9e48871d0c614ecc9f5567ac1f6c03b285a58bf02d68479a01"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -1993,9 +1990,8 @@ dependencies = [
 
 [[package]]
 name = "decaf377-ka"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d3181db6da16a916dba32b7e6762acc55ae01f8a8928d8e4a1e3052fa8eceb32"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "ark-ff 0.4.2",
  "decaf377",
@@ -7116,9 +7112,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-app"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a22e1a80a4a9de7c9cce0c6f69a4f2658fed9fb218ac5e3310c6ed55b66fe72"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7186,9 +7181,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-asset"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "15e368f97693a0a777c3b01bc39daa12e76ea1688e9ca0c8367b7fe4fe0bad49"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7226,9 +7220,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-auction"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a418aae1af5da9eff6871571919db44d76dbef5261c4b3a025ccdba48a97071d"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7272,9 +7265,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-community-pool"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2ce37b6c588ba850f57b7e8601d4718309ee60862b6d2e1be0c6d8c6422a1173"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7303,9 +7295,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-compact-block"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "54e083b49b02dc5d2684e365ae3afdb25b9dca82f04b405da02fd83d1a7d7dd4"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7335,9 +7326,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-custody"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "951772714d1255cf0fc463d0e5ed755a6890730f3b31e72799768a5545c52ed8"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "argon2",
@@ -7372,9 +7362,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-dex"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "171775ac70b6bee6afdd7461ed338eb0311088b05a669d305063df47a577c571"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7426,9 +7415,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-distributions"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "39070e15e1bf81dd15c57b8bf3a3bbdd990574eec0f777c698cb3f1872548621"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -7443,9 +7431,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-fee"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6e81a91fd4d5c7624729956252dcda8950f1c8f0f621f808ff33e4ad68fc9d2d"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7471,20 +7458,30 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-funding"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "59eb50a5eec4fd395849da32aa8b469af9103139c4708e719c755222946df126"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
+ "ark-groth16",
  "async-trait",
+ "base64 0.21.7",
+ "decaf377",
+ "decaf377-rdsa",
  "penumbra-sdk-asset",
  "penumbra-sdk-community-pool",
+ "penumbra-sdk-dex",
  "penumbra-sdk-distributions",
+ "penumbra-sdk-governance",
+ "penumbra-sdk-keys",
  "penumbra-sdk-num",
+ "penumbra-sdk-proof-params",
  "penumbra-sdk-proto",
  "penumbra-sdk-sct",
  "penumbra-sdk-shielded-pool",
  "penumbra-sdk-stake",
+ "penumbra-sdk-tct",
+ "penumbra-sdk-txhash",
+ "rand 0.8.5",
  "serde",
  "tendermint",
  "tracing",
@@ -7492,9 +7489,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-governance"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "872539de52b017a7ac5895dcd8e424d0f5b911a1b6fd81d62ce3fc4c7312c95a"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7542,9 +7538,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-ibc"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "87ac57de7285801d05846b1df8a7ebd80287c41dc6ce6dff774c702957504950"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7579,9 +7574,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-keys"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6d67f35bb36b591466ff861842a5fb314a7e654d95a55efecabefe3d3e3be68a"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "aes",
  "anyhow",
@@ -7624,9 +7618,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-num"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d516e88cb770abcaeb2b0d70f29de479f076b91c705341fdf94f06cb79c2eeb"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7661,9 +7654,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-proof-params"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f538e98230c0b920204f44c7327220afb393703c54093ccd50da85293a0771bf"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ec 0.4.2",
@@ -7691,9 +7683,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-proto"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9db1e94a34376794470852d25eee00280f26e4a761a846e2c16b12322e4540d7"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -7724,9 +7715,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-sct"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3c9d0da86bda4cccf32d1608313a493fcc6e73e874adf3044d28f046b9d5b548"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7750,6 +7740,7 @@ dependencies = [
  "penumbra-sdk-keys",
  "penumbra-sdk-proto",
  "penumbra-sdk-tct",
+ "penumbra-sdk-txhash",
  "poseidon377",
  "rand 0.8.5",
  "rand_core 0.6.4",
@@ -7761,9 +7752,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-shielded-pool"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "52afbc73a9e5e55fa0c944fc19dfdb6cd08d96f92332ce53b763aea20277bdc2"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7814,9 +7804,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-stake"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eb3511b7969fb96c30c7384589f7d88025089d9cae8d31476148a852159e3b54"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7856,9 +7845,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-tct"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81d2d7f7443c2db3b00cb54ff0d6f6b40a548b1882452482c973bcea1dd51786"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "ark-ed-on-bls12-377",
  "ark-ff 0.4.2",
@@ -7886,9 +7874,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-tower-trace"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b821dfdc5f85f72eeaabea87ecc30b13570577e18df28bfe987e7ac409e53b73"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "futures",
  "hex",
@@ -7909,9 +7896,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-transaction"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "15abc53b1aa59d9eca2aa309225a549a9c13b8139e10e70229d9fca3b162f0e0"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-ff 0.4.2",
@@ -7937,6 +7923,7 @@ dependencies = [
  "penumbra-sdk-community-pool",
  "penumbra-sdk-dex",
  "penumbra-sdk-fee",
+ "penumbra-sdk-funding",
  "penumbra-sdk-governance",
  "penumbra-sdk-ibc",
  "penumbra-sdk-keys",
@@ -7962,9 +7949,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-txhash"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b845e5ba4f9b52370a72d4c9bc38195e25511dbf8a6fb4b676ad45b8459a3a01"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "blake2b_simd 1.0.3",
@@ -7977,9 +7963,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-view"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6c8e4a97ed26307835e2ee26fd776d5cc384c554f413d041521e6d26581f3b66"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-std 0.4.0",
@@ -8038,9 +8023,8 @@ dependencies = [
 
 [[package]]
 name = "penumbra-sdk-wallet"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "263e48dc26c4905ff06339bfb84c974675a7db5d52093ce7d14fae7294dc2f76"
+version = "2.0.0-alpha.2"
+source = "git+https://github.com/penumbra-zone/penumbra?branch=protocol/lqt_branch#6040ed768b56da855b35219a5a5882e9a2704524"
 dependencies = [
  "anyhow",
  "ark-std 0.4.0",

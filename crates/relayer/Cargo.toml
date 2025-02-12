@@ -19,14 +19,6 @@ all-features = true
 default   = ["flex-error/std", "flex-error/eyre_tracer"]
 
 [dependencies]
-penumbra-sdk-proto       = { version = "1.0.0", features = ["box-grpc", "rpc"] }
-penumbra-sdk-wallet      = "1.0.0"
-penumbra-sdk-keys        = "1.0.0"
-penumbra-sdk-ibc         = "1.0.0"
-penumbra-sdk-custody     = "1.0.0"
-penumbra-sdk-fee         = "1.0.0"
-penumbra-sdk-view        = "1.0.0"
-penumbra-sdk-transaction = { version = "1.0.0", features = ["download-proving-keys"] }
 pbjson-types = "0.7"
 
 ibc-proto         = { workspace = true, features = ["serde"] }
@@ -100,3 +92,46 @@ test-log          = { workspace = true, features = ["trace"] }
 
 # Needed for generating (synthetic) light blocks.
 tendermint-testgen = { workspace = true }
+
+
+[dependencies.penumbra-sdk-proto]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-proto"
+features = ["box-grpc", "rpc"]
+
+[dependencies.penumbra-sdk-wallet]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-wallet"
+
+[dependencies.penumbra-sdk-keys]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-keys"
+
+[dependencies.penumbra-sdk-ibc]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-ibc"
+
+[dependencies.penumbra-sdk-custody]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-custody"
+
+[dependencies.penumbra-sdk-fee]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-fee"
+
+[dependencies.penumbra-sdk-view]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-view"
+
+[dependencies.penumbra-sdk-transaction]
+git     = "https://github.com/penumbra-zone/penumbra"
+branch  = "protocol/lqt_branch"
+package = "penumbra-sdk-transaction"
+features = ["download-proving-keys"]
