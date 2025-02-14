@@ -14,8 +14,13 @@ description  = """
 """
 default-run = "hermes"
 
+[features]
+penumbra-support = ["ibc-relayer/penumbra-proving-keys"]
+
 [[bin]]
 name = "hermes"
+required-features = ["penumbra-support"]
+
 
 [dependencies]
 ibc-relayer-types  = { workspace = true }
