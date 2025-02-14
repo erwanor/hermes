@@ -17,6 +17,7 @@ all-features = true
 
 [features]
 default   = ["flex-error/std", "flex-error/eyre_tracer"]
+penumbra-proving-keys = ["penumbra-sdk-transaction/download-proving-keys"]
 
 [dependencies]
 penumbra-sdk-proto       = { version = "1.0.0", features = ["box-grpc", "rpc"] }
@@ -26,7 +27,7 @@ penumbra-sdk-ibc         = "1.0.0"
 penumbra-sdk-custody     = "1.0.0"
 penumbra-sdk-fee         = "1.0.0"
 penumbra-sdk-view        = "1.0.0"
-penumbra-sdk-transaction = { version = "1.0.0", features = ["download-proving-keys"] }
+penumbra-sdk-transaction = { version = "1.0.0" }
 pbjson-types = "0.7"
 
 ibc-proto         = { workspace = true, features = ["serde"] }
